@@ -5,27 +5,32 @@
 }
 
 .cabeçalho{
-    display: flex;
     background-color: rgb(194, 139, 245);
     align-items: center;
     justify-content: space-between;
     background-size: 100%;
     height: 115px;
     padding: 0px 100px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     gap: 10px;
-}
-
-a{
-    color: aliceblue;
-    text-decoration: none;
-    transition: all 0.3 ease;
     flex-direction: row;
 }
 
-a:hover{
-    transform: scale(10px);
-    color: chartreuse;
+.cabeçalho{
+    display: flex;
+    gap: 10px;
+
+}
+
+.items{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3 ease;
+    justify-content: center;
+    align-items: center;
+
+
+
 }
 li{
     list-style: none;
