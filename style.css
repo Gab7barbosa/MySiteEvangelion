@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
- /* --codigo da navbar e pagina 1-- */
+
+/* --codigo da navbar e pagina 1-- */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,6 @@ body {
     flex-direction: row;
 }
 
-
 .navega>a {
     display: flex;
     color: aliceblue;
@@ -34,30 +34,36 @@ body {
     text-decoration: none;
     font-size: 22px;
 }
+
 .logo {
     height: 100px;
     width: 250px;
 }
-body{
+
+body {
     background-image: url(imagems/iamgemdeFundo.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.items{
+
+.items {
     color: rgb(242, 243, 247);
 }
+
 /* ---------- */
 
- /* --codigos da pagina 2 -- */
-h1{
+/* --codigos da pagina 2 -- */
+h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     align-items: center;
 }
+
 li {
     list-style: none;
 }
+
 /* -- codigos da pagina 3 -- */
 
 /* ----------------- */
@@ -70,6 +76,7 @@ li {
     padding: 50px;
     gap: 340px;
 }
+
 .imagemsEVAS img {
     display: block;
 }
@@ -80,7 +87,8 @@ h1 {
     justify-content: center;
     align-items: center;
 }
- .p{
+
+.p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +98,7 @@ h1 {
 .eva01 img:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
-    
+
 }
 
 .eva02 img:hover {
@@ -107,25 +115,46 @@ h1 {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
+
 /* ------------- */
 
 /* -- codigos da pagina 5 -- */
-#PrimeiroInpact{
+#PrimeiroInpact {
     display: flex;
     flex-direction: column;
-    background-color: crimson;
+    background-color: rgb(0, 0, 0);
     border-radius: 4%;
-    height: 150px;
-    width: 500px;
-    gap: 100px;
+    border: 10px solid rgb(255, 255, 255);
+    width: 800px;
+    padding: 50px;
+    margin: 20px;
 }
 
-#SegundoInpact{
+#SegundoInpact {
     display: flex;
     flex-direction: column;
-    background-color: crimson;
-    border-radius: 4%;
-    height: 350px;
-    width: 500px;
-    gap: 100px;
+    border-radius: 3%;
+    height: 350px;                      /*<---id referente a parte escrita do segundo inpacto */
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px;
+}
+
+#S_impactoimg{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgb(255, 255, 255);
+    height: 460px;
+    width: 790px;
+}
+
+.conteudo5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
