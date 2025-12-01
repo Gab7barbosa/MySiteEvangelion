@@ -1,3 +1,4 @@
+/* codigo para importar a nova fonte do site */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /* --codigo da navbar e pagina 1-- */
@@ -6,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -23,7 +23,6 @@ body {
     gap: 10px;
     flex-direction: row;
 }
-
 .navega>a {
     display: flex;
     color: aliceblue;
@@ -34,23 +33,22 @@ body {
     text-decoration: none;
     font-size: 22px;
 }
-
 .logo {
     height: 100px;
     width: 250px;
 }
-
+/* imagem de fundo */
 body {
     background-image: url(imagems/iamgemdeFundo.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+/* cor da classe items */
 .items {
     color: rgb(242, 243, 247);
 }
 
-#conteudo1 {
+.conteudo1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,79 +56,21 @@ body {
     gap: 50px;
 }
 
+.conteudo1>p{
+    display: flex;
+    font-size: xx-large;
+    width: 1000px;
+}
+
+footer {
+    background-color: blueviolet;
+    margin-top: 400px;
+    height: 100px;
+}
+
 /* ---------- */
 
 /* --codigos da pagina 2 -- */
-#Inf_abertura {
-    background-color: rgb(0, 0, 0);
-    border: 5px solid rgb(255, 255, 255);
-    height: 300px;
-    width: 800px;
-}
-#Inf_abertura>h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/* -- codigos da pagina 3 -- */
-.conteudo3 {
-    background-color: rgb(0, 0, 0);
-    border: 5px solid rgb(255, 255, 255);
-    height: 400px;
-    /* ajustar a altura e largura das caixas além de dar um melhor alinhamento delas na página */
-}
-
-/* ----------------- */
-
-/* -- codigos da pagina 4 -- */
-
-.imagemsEVAS {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    gap: 340px;
-}
-
-.eva01 img:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-}
-
-.eva02 img:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-}
-
-.eva00 img:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-}
-
-.eva00Blue img:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-}
-
-#conteudo4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: black;
-    border-radius: 20px;
-    border: 5px solid rgb(255, 255, 255);
-    width: 1500px;
-    height: 340px;
-    font-size: 17px;
-    padding: 20px;
-    margin-left: 170px;
-}
-
-/* ------------- */
-
-/* -- codigos da pagina 5 -- */
 #PrimeiroInpact {
     display: flex;
     flex-direction: column;
@@ -170,4 +110,84 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* -- codigos da pagina 3 -- */
+#Historia {
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    height: 400px;
+    margin-top: 100px;
+    /* ajustar a altura e largura das caixas além de dar um melhor alinhamento delas na página */
+}
+
+/* ----------------- */
+
+/* -- codigos da pagina 4 -- */
+
+.imagemsEVAS {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 340px;
+}
+
+.eva01 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva02 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva00 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva00Blue img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+#Evas_infor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 1500px;
+    height: 340px;
+    font-size: 17px;
+    padding: 20px;
+    margin-left: 170px;   
+}
+
+/* ------------- */
+
+/* -- codigos da pagina 5 -- */
+
+
+button {
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    border: 5px solid white;
+    color: aliceblue;
+    margin-left: 740px;
+    margin-top: 30px;
+
+}
+
+#minhaImagem {
+    margin-left: 325px;
+    height: 620px;
+    margin-top: 10px;
 }
